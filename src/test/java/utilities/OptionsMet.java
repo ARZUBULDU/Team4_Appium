@@ -1,5 +1,6 @@
 package utilities;
 
+import Page.BasePage;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
@@ -18,7 +19,7 @@ import java.util.Arrays;
 import static org.junit.Assert.assertTrue;
 import static utilities.Driver.getAppiumDriver;
 
-public class OptionsMet {
+public class OptionsMet extends BasePage {
 
 
     public static void swipe(int x, int y, int endX, int endY) throws InvalidMidiDataException {
